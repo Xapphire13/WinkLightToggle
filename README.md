@@ -7,8 +7,8 @@ If you're looking for a quick and easy way to add Wink light toggling to your ho
 Guide on how to programmatically toggle a Wink light
 
 ## Why
-The Wink API (including Shortcuts and Robots) seems to offer no ability to toggle a light's state. Searching 3rd party apps such as
-IFTTT also yields no results in toggling a light, only the ability to turn it on, or off.
+The Wink API (including Shortcuts and Robots) doesn't offer the ability to toggle a light's state. Searching 3rd party apps such as
+IFTTT also only have the ability to turn lights either on, or off.
 
 ## How
 ### Prerequisites
@@ -88,4 +88,4 @@ This step will use a Flic button as the example, but you can modify the steps an
 // TODO
 
 ## Caveats
-Due to the number of services we need to talk to in order to toggle our light, the time from activation to your light responding can be rather long (~5-10 seconds). We could speed this up a little if we used a local server rather than Zapier, however using Zapier is a great option for those who don't want to run their own server.
+Due to the number of services between the trigger and the light, the time from trigger activation, to the light responding can be rather long (~5-10 seconds). This could be sped up a little by using a local server rather than Zapier, however using Zapier is a great option for those who don't want to run their own server.
